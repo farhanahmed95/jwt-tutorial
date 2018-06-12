@@ -5,6 +5,7 @@
  * 2) add middleware for checking if request have authorization tokens. look `ensureToken` function
  * 3) verify JWT and print data else set status code to 403 
  */
+
 var express = require('express');
 var jwt = require('jsonwebtoken');
 const app = express();
